@@ -1,3 +1,3 @@
 # nft-preview-card
 
-[![nft.png](https://i.postimg.cc/Y2JtggS6/nft.png)](https://postimg.cc/XXkM6rdq)
+[![nft.png](https://i.postimg.cc/SszY7Mww/nft.png)](https://postimg.cc/N9B0Q5G4)
