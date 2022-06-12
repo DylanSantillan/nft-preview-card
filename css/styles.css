@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+/* VARIABLES */
+:root{
+    /* primary */
+    --soft-blue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+    /* neutral */
+    --dark-blue-main: hsl(217, 54%, 11%);
+    --dark-blue-card: hsl(216, 50%, 16%);
+    --dark-blue-line: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+    /* fuentes */
+    --font: 'Outfit', sans-serif;
+}
+
+/* GENERALES */
+html{
+    font-size: 62.5%;
+}
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--font);
+    font-size: var(--font-size);
+    background-color: var(--dark-blue-main);
+}
+
+/* BODY */
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteiner{
+    background-color: var(--dark-blue-card);
+    width: 30rem;
+    height: 48rem;
+    border-radius: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 37px 0px rgba(0, 0, 0, .5);
+}
+
+.card{
+    width: 25rem;
+    height: 43rem;
+}
+
+.conteiner-eth{
+    width: 100%;
+    position: relative;
+}
+
+.img-ethereum{
+    width: 100%;
+    border-radius: .5rem;
+}
+
+.view{
+    position: absolute;
+    background-color: var(--cyan);
+    top: 0;
+    width: 100%;
+    height: 99%;
+    border-radius: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all .5s;
+}
+
+.view:hover{
+    opacity: .6;
+}
+
+.icon-view{
+    width: 8rem;
+}
+
+.title{
+    color: var(--white);
+    margin: 1.3rem 0;
+    font-size: 2rem;
+    transition: all .5s;
+}
+
+.title:hover{
+    color: var(--cyan);
+}
+
+.parrafo{
+    color: var(--soft-blue);
+    font-size: 1.4rem;
+    margin: .5rem 0;
+}
+
+.price-days{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.icon{
+    width: auto;
+    height: 2rem;
+}
+
+.price{
+    display: flex;
+    align-items: center;
+}
+
+.days{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.price-ethereum{
+    margin-left: .7rem;
+    color: var(--cyan);
+
+}
+
+.days-clock{
+    margin-left: .7rem;
+    font-weight: 500;
+    color: var(--soft-blue);
+}
+
+.division{
+    color: var(--dark-blue-line);
+}
+
+.perfil-name{
+    display: flex;
+    align-items: center;
+}
+
+.perfil{
+    width: 3rem;
+    margin-right: 1.5rem;
+    border: 1px solid var(--white);
+    border-radius: 50%;
+}
+
+.parrafo-name{
+    font-weight: 500;
+    color: var(--soft-blue);
+}
+
+.name{
+    color: var(--white);
+    transition: all .5s;
+}
+
+.name:hover{
+    color: var(--cyan);
+}
+
